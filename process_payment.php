@@ -22,8 +22,8 @@ function post($url, $data = [], $header = []) {
 }
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-    $api_key = 'aa5d5ac81f0825ae4db58420da692f68db6914ff5c286296fc5c81fc11cf4c5b';
-    $api_secret = '36d3f49bc8133e5f1915519db88d80cea91b6f164f53eee853784b7899279330';
+    $api_key = 'votre cle api ici !!!';
+    $api_secret = '';
 
     $mode_paiement = $_POST['payment_method'];
     $voiture_id = $_POST['voiture_id'];
