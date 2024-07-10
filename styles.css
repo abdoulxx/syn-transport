@@ -1,0 +1,175 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+.top-info-bar {
+    background-color: #f8f9fa;
+    padding: 10px 0;
+}
+.top-info-bar .logo {
+    height: 50px;
+}
+.top-info-bar .contact-info {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.navbar-custom {
+    background-color: #000; /* Change to desired color */
+}
+.navbar-custom .nav-link {
+    color: #fff;
+}
+.header_wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-brand .logo {
+    height: 200px;
+    margin-right: 10px;
+    margin-bottom: -50px;
+    margin-top: -50px;
+}
+
+.full-screen-text {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+.full-screen-text h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+.full-screen-text p {
+    font-size: 1.5em;
+}
+.info-section {
+    padding: 50px 0;
+    text-align: center;
+}
+.info-section .info-box {
+    margin-bottom: 30px;
+}
+.info-section .info-box i {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+.info-section .info-box h4 {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.info-section .info-box p {
+    margin: 0;
+}
+.card-section {
+    padding: 50px 0;
+}
+.card-section .card {
+    transition: transform 0.3s;
+}
+.card-section .card:hover {
+    transform: scale(1.05);
+}
+.btn-primary {
+    background-color: #ff1100d8;
+    border-color: #ff1100d8;
+}
+
+.btn-primary:hover {
+    background-color: #ff1100e0;
+    border-color: #ff1100e0;
+}
+.stats-section {
+    background-image: url('images/home6.jpg'); /* Replace with your background image */
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+.stats-section .stat {
+    background-color: rgba(255, 17, 0, 0.8);
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    color: #fff;
+}
+.stats-section .stat h4, .stats-section .stat p {
+    margin: 0;
+    padding: 0;
+}
+.testimonials-section {
+    padding: 50px 0;
+    background-color: #f8f9fa;
+}
+.testimonial {
+    background: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.testimonial:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
+}
+.testimonial img {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 15px;
+}
+.testimonial .testimonial-author {
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.testimonial .testimonial-role {
+    color: #777;
+    font-size: 0.9em;
+}
+.footer {
+    background-color: #ec0a0a;
+    color: #ffffff;
+    padding: 40px 0;
+}
+.footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+.footer a:hover {
+    color: #ff1100;
+}
+.footer .footer-links {
+    list-style: none;
+    padding: 0;
+}
+.footer .footer-links li {
+    margin-bottom: 10px;
+}
+.footer .social-icons a {
+    margin: 0 10px;
+    color: #ffffff;
+    font-size: 1.5em;
+}
+.footer .social-icons a:hover {
+    color: #ff1100;
+}
+.footer-bottom {
+    border-top: 1px solid #474e54;
+    padding-top: 20px;
+    text-align: center;
+}
